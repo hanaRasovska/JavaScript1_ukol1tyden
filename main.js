@@ -13,7 +13,9 @@
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
   console.log("Gratulace, právě jsi spustila tuto funkci!");
-  let text = document.querySelector("#ctverecek").innerHTML = "Gratulace!";
+  let text = document.querySelector("#ctverecek").innerHTML = "Gratulace, právě jsi spustila tuto funkci!";
+  let roztazeni = document.querySelector(".ctverecek");
+  roztazeni.style.width = "500px";
 }
 /** zmena barvy ctverecku**/
 function priKliknuti() {
